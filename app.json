@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "StaffSphare",
+    "slug": "companyname-Staffsphare",
+    "version": "1.2.6",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.companyname.Staffsphare",
+      "config": {
+        "googleMapsApiKey": "AIzaSyAhBGLOq98nZoPlNZjJdMzliG4O2FoYwLE"
+      }
+    },
+    "android": {
+      "package": "com.companyname.Staffsphare",
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "READ_PHONE_STATE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAhBGLOq98nZoPlNZjJdMzliG4O2FoYwLE"
+        }
+      },
+      "versionCode": 17
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#4c52c3"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "783076e4-3546-4104-9fb6-e613a3b1b696"
+      }
+    }
+  }
+}
